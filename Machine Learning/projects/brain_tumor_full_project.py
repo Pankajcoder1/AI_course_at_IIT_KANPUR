@@ -294,7 +294,10 @@ print("\n\nAccuracy score %f" % accuracy_score(Y_test, predictions))
 
 print("\n\n")
 print("confusion_matrix = \n")
-print( confusion_matrix(Y_test, predictions))
+matrix = confusion_matrix(Y_test, predictions)
+print(matrix)
+sns.heatmap(matrix,annot=True,fmt='g')
+plt.show()
 
 
 
