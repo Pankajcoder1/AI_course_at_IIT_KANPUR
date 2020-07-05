@@ -19,7 +19,7 @@
 #### Some important technique used
   - Data cleaning(using pandas)
   - Data visualization(using saborn,matplotlib)
-    > by using heatmap,colobar map,histogrm,box plot
+    > by using heatmap, colobar map, histogram, box plot
   - conecpt of pipline
   - standardization
   - spot checking
