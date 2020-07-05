@@ -335,7 +335,7 @@ try:
 
 
 
-		sns.heatmap(cf_matrix,annot=True)
+		sns.heatmap(cf_matrix,annot=True,fmt='g')
 		plt.show()
 
 		# now save model for furture use of prediction
